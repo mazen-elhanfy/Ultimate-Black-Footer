@@ -1,0 +1,355 @@
+* {
+    box-sizing: border-box;
+}
+
+.parent {
+    width: 100%;
+    height: 300px;
+    background-color: #333333;
+    position: relative;
+    margin: 300px auto;
+}
+
+.footer {
+    width: 100%;
+    height: 20%;
+    background-color: #2b2b2b;
+    position: absolute;
+    left: 0;
+    top: 85%;
+}
+
+.footer .one {
+    color: #ddd;
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.white {
+    color: #fff;
+}
+
+.footer .image-one {
+    width: 90px;
+    height: 40px;
+    position: absolute;
+    left: 60%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.footer .image-two {
+    width: 90px;
+    height: 40px;
+    position: absolute;
+    left: 70%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.footer .image-three {
+    width: 90px;
+    height: 40px;
+    position: absolute;
+    left: 80%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.first {
+    width: 15%;
+    height: 85%;
+    position: absolute;
+    left: 15%;
+    top: 0;
+}
+
+.first h2 {
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.first .one {
+    color: #ddd;
+    width: 110%;
+}
+
+.first .two {
+    color: #ddd;
+    position: absolute;
+    left: 0%;
+    top: 50%;
+    text-transform: capitalize;
+}
+
+.first .three {
+    color: #ddd;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.first .four {
+    color: #ddd;
+    position: absolute;
+    left: 0%;
+    top: 70%;
+    text-transform: capitalize;
+}
+
+.first .five {
+    color: #ddd;
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    text-transform: capitalize;
+}
+
+.second h2 {
+    color: #fff;
+    text-transform: capitalize;
+    position: absolute;
+    left: 40%;
+}
+
+.second .one {
+    color: #ddd;
+    width: 100%;
+    position: absolute;
+    left: 40%;
+    top: 20%;
+}
+
+.second .two {
+    color: #ddd;
+    width: 100%;
+    position: absolute;
+    left: 40%;
+    top: 30%;
+}
+
+.second .three {
+    color: #ddd;
+    width: 100%;
+    position: absolute;
+    left: 40%;
+    top: 40%;
+}
+
+.second .four {
+    color: #ddd;
+    width: 100%;
+    position: absolute;
+    left: 40%;
+    top: 50%;
+}
+
+.second .five {
+    color: #ddd;
+    width: 100%;
+    position: absolute;
+    left: 40%;
+    top: 60%;
+}
+
+.second .six {
+    color: #ddd;
+    width: 100%;
+    position: absolute;
+    left: 40%;
+    top: 70%;
+}
+
+.second .seven {
+    color: #ddd;
+    width: 100%;
+    position: absolute;
+    left: 40%;
+    top: 80%;
+}
+
+.third h2 {
+    color: #fff;
+    text-transform: capitalize;
+    position: absolute;
+    left: 50%;
+}
+
+.third .one {
+    color: #ddd;
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 20%;
+}
+
+.third .two {
+    color: #ddd;
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+}
+
+.third .three {
+    color: #ddd;
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+}
+
+.third .four {
+    color: #ddd;
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+
+.third .five {
+    color: #ddd;
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 60%;
+}
+
+.third .six {
+    color: #ddd;
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 70%;
+}
+
+.third .seven {
+    color: #ddd;
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 80%;
+}
+
+.fourth h2 {
+    color: #fff;
+    text-transform: capitalize;
+    position: absolute;
+    left: 65%;
+}
+
+.fourth p {
+    color: #ddd;
+    width: 110%;
+    position: absolute;
+    left: 65%;
+    top: 15%;
+}
+
+.fourth input {
+    background-color: #ddd;
+    color: #444;
+    width: 250px;
+    height: 30px;
+    border: 0;
+    position: absolute;
+    left: 65%;
+    top: 35%;
+}
+
+.fourth span {
+    border-radius: 5px;
+    width: 150px;
+    height: 35px;
+    background-color: #e52727;
+    color: #fff;
+    position: absolute;
+    left: 82%;
+    top: 34%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourth .social {
+    color: #ddd;
+    position: absolute;
+    left: 65%;
+    top: 50%;
+}
+
+.fourth .mazen {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: absolute;
+    left: 65%;
+    top: 60%;
+    color: #00f;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourth .one {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: absolute;
+    left: 70%;
+    top: 60%;
+    color: #fff;
+    background-color: #00a2e8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourth .two {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: absolute;
+    left: 75%;
+    top: 60%;
+    color: #fff;
+    background-color: #e52727;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourth .three {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: absolute;
+    left: 80%;
+    top: 60%;
+    color: #fff;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
